@@ -23,6 +23,7 @@
   "dependencies": {
     "@earth-optics/eslint-config-typescript": "github:EarthOptics/earthoptics-eslint",
     "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-markdownlint": "^0.5.0",
     "eslint-plugin-react": "^7.34.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "react": "^18.2.0",
@@ -31,7 +32,6 @@
   "devDependencies": {
     "@types/react": "^18.2.65",
     "@types/react-dom": "^18.2.22",
-    "eslint-plugin-markdownlint": "^0.5.0",
     "markdownlint": "^0.33.0"
   }
 }
