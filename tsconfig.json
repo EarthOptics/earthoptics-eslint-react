@@ -1,0 +1,9 @@
+// Mainly just using this file so `parserOptions` in the eslint config has something to work with.
+{
+    "include": ["index.js", "_eslintrc.base.cjs"],
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "noEmit": true,
+        "allowJs": true
+    }
+}

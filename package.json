@@ -1,0 +1,37 @@
+{
+  "name": "@earth-optics/eslint-config-typescript-react",
+  "version": "1.0.0",
+  "description": "ESLint configuration for React TypeScript projects",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EarthOptics/earthoptics-eslint-react.git",
+    "directory": "packages/eslint-typescript-react"
+  },
+  "keywords": [
+    "eslint",
+    "typescript",
+    "eslintconfig",
+    "rules",
+    "lint",
+    "config"
+  ],
+  "author": "EarthOptics",
+  "bugs": {
+    "url": "https://github.com/EarthOptics/earthoptics-eslint-react/issues"
+  },
+  "homepage": "https://github.com/EarthOptics/earthoptics-eslint-react#readme",
+  "dependencies": {
+    "@earth-optics/eslint-config-typescript": "github:EarthOptics/earthoptics-eslint",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.34.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.65",
+    "@types/react-dom": "^18.2.22",
+    "eslint-plugin-markdownlint": "^0.5.0",
+    "markdownlint": "^0.33.0"
+  }
+}
